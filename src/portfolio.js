@@ -174,28 +174,32 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Wisflux Tech Labs",
+      companylogo: require("./assets/images/wisflux_logo.jpeg"),
+      date: "June 2022 – Present",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed microservices that significantly enhanced software performance, thereby contributing to an improved user experience",
+        "I designed and implemented a planner module aimed at assisting administrators in configuring campaigns, thereby optimizing efficiency and saving time"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer Intern",
+      company: "UPCRED",
+      companylogo: require("./assets/images/upcred_logo.jpeg"),
+      date: "Oct 2021 – DESC 2021",
+      descBullets: [
+        "Worked on project with team of five members and collaboration with development team on Influencer Marketing project. In the Bitbucket working environment and using REACT for frontend",
+        "Enhancing the user experience by incorporating scroll- triggered animations into an existing User Interface"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack Developer - Intern",
+      company: "SKYHYPE",
+      companylogo: require("./assets/images/skyhypelogo2.jpg"),
+      date: "Jun 2021 – Sep 2021",
+      descBullets: [
+        "In this role, my primary responsibility entails crafting user interfaces through the utilization of HTML, CSS, and JavaScript"
+      ]
     }
   ]
 };
@@ -215,25 +219,27 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ecommerce-app.png"),
+      projectName: "E-commerce App",
+      projectDesc:
+        "A E-commerce app where you can buy products and manage your inventory.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/pank1999/Myshop-E-commerce-app"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/paskey.avif"),
+      projectName: "Paskey",
+      projectDesc:
+        "A mobile application to manage your password and generate secure password.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://paskey.online/"
         }
       ]
     }
@@ -251,51 +257,37 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Smart India Hackathon 2020",
+      subtitle: "Finalist in Smart India Hackathon 2020 Software Edition",
+      image: require("./assets/images/SIH.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
           name: "Award Letter",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      title: "IOT Exhibition",
+      subtitle: "Runner Up in IOT Exhibition in VITS, Satna",
+      image: require("./assets/images/IOT2.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
+          name: "Award Letter",
           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Cloud Computing",
+      subtitle: "Completed Certifcation from RGPV on Cloud Computing",
+      image: require("./assets/images/cloud-computing.webp"),
+      imageAlt: "Cloud computing",
       footerLink: [
         {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
       ]
     }
   ],
