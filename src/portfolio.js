@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Typescript / Angular / Nodejs / Nest Js / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/14F2y-SEJUKBkrSB42o8H9iUc6TZKUtdV/view?usp=drivesdk", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -129,10 +129,12 @@ const educationInfo = {
       logo: require("./assets/images/vits-logo.jpeg"),
       subHeader: "Bachelor of Technology in Computer Science",
       duration: "Aug 2018 - April 2022",
-      desc: "Participated in the Smart India Hackathon",
+      desc: "Finalist in the Smart India Hackathon",
       descBullets: [
         "Runner Up in IOT Exhibition",
-        "Winner In final year reflection competition"
+        "Participated in Soft-tech Hackathon Jaipur 2021",
+        "Winner In final year reflection competition",
+        "Member of the college cricket team"
       ]
     },
     {
@@ -142,6 +144,17 @@ const educationInfo = {
       duration: "July 2017 - Mar 2018",
       desc: "House Captain of school",
       descBullets: ["Selected in school cricket team"]
+    },
+    {
+      schoolName: "Blooms Academy, Satna M.P India",
+      logo: require("./assets/images/blooms.jpeg"),
+      subHeader: "Class 10th",
+      duration: "July 2015 - Mar 2016",
+      desc: "Member of co-curricular activities team",
+      descBullets: [
+        "Won inter house group dance competition",
+        "Participated in maths olympiad"
+      ]
     }
   ]
 };
@@ -152,6 +165,10 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
+      Stack: "Programming",
+      progressPercentage: "80%"
+    },
+    {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
@@ -160,8 +177,12 @@ const techStack = {
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Database",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "DevOps",
+      progressPercentage: "65%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -173,10 +194,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
+      role: "Full Stack Software Engineer",
       company: "Wisflux Tech Labs",
       companylogo: require("./assets/images/wisflux_logo.jpeg"),
-      date: "June 2022 – Present",
+      date: "September 2022 – Present",
       descBullets: [
         "Developed microservices that significantly enhanced software performance, thereby contributing to an improved user experience",
         "I designed and implemented a planner module aimed at assisting administrators in configuring campaigns, thereby optimizing efficiency and saving time"
